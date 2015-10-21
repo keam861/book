@@ -8,8 +8,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'  
-gem 'devise', '3.5.2'
+gem 'devise', '~> 3.5.2'
 
 
 group :development, :test do
@@ -24,5 +25,3 @@ end
 group :doc do 
 	gem 'sdoc', require: false
 end
-
-
