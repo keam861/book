@@ -122,8 +122,6 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2015.7)
-      tzinfo (>= 1.0.0)
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -136,7 +134,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.0.0)
-  devise (~> 3.5.2)
+  devise (= 3.5.2)
   jbuilder (~> 2.0)
   jquery-rails
   pg
@@ -146,5 +144,4 @@ DEPENDENCIES
   sdoc
   sqlite3
   turbolinks
-  tzinfo-data
   uglifier (>= 1.3.0)
