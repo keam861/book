@@ -75,7 +75,7 @@ Rails.application.configure do
 
   #Required for Heroku
   # Note to set this to your actual host
-  config.action_mailer.default_url_options = { host: => 'omr-wbook.com' }
+  config.action_mailer.default_url_options = { host: 'omr-wbook.com', port: 3000 }
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
