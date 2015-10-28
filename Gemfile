@@ -11,7 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'         
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise', '~> 3.5.2'
-
+gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 
 group :development, :test do
  gem 'sqlite3'
