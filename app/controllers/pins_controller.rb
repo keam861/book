@@ -6,17 +6,17 @@ class PinsController < ApplicationController
   respond_to :html
 
   def index
-    @pin = Pin.all
-    respond_with(@pins)
+    @pins = Pin.all
+    
   end
 
   def show
-    respond_with(@pin)
+
   end
 
   def new
     @pin = current_user.pins.build
-    respond_with(@pin)
+    
   end
 
   def edit
